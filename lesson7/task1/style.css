@@ -20,7 +20,7 @@ button:disabled {
     border: 2px dashed grey;
 }
 
-button:enabled {
+button:enabled:hover {
     background-color: grey;
     color: white;
 }
