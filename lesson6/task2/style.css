@@ -12,10 +12,10 @@ ol span {
     background-color: green;
 }
 
-#Antarctida {
+#special +li > span {
     border: 3px solid red;
 }
 
-.continent {
+#special ~ li {
     margin-left: 16px;
 }
