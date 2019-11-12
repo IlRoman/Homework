@@ -1,19 +1,20 @@
-.super-important, .highlighted {
+.super-important.highlighted {
     background-color: red;
 }
 
 .highlighted {
     color: yellow;
+    background-color: red;
 }
 
 .company-data {
     color: yellow;
 }
 
-li, .user-data {
+li.user-data {
     font-size: 24px;
 }
 
-span, .user-data {
+span.user-data {
     font-size: 10px;
 }
