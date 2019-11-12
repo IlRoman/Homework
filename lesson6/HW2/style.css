@@ -1,4 +1,4 @@
-.already-learned {
+.already-learned > ol {
     background-color: green;
     color: white;
 }
