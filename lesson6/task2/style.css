@@ -1,23 +1,21 @@
-img[alt="Pollution"] {
-    border: 5px dashed red;
+li {
+    margin-bottom: 16px;
 }
 
-img[href$=".jpg"] {
-    margin-left: 50px;
+ul span {
+    color: white;
+    background-color: orange;
 }
 
-li[data-description~="even"] {
-    background-color: grey;
+ol span {
+    color: white;
+    background-color: green;
 }
 
-li[data-description*="even"] {
-    font-size: 24px;
+#special +li > span {
+    border: 3px solid red;
 }
 
-a[href*="https://"] {
-    color: green;
-}
-
-span[lang|="en"]{
-    font-size: 24px;
+#special ~ li {
+    margin-left: 16px;
 }
