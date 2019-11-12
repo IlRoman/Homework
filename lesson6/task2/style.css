@@ -1,0 +1,21 @@
+li {
+    margin-bottom: 16px;
+}
+
+ul span {
+    color: white;
+    background-color: orange;
+}
+
+ol span {
+    color: white;
+    background-color: orange;
+}
+
+#Antarctida {
+    border: 3px solid red;
+}
+
+.continent {
+    margin-left: 16px;
+}
