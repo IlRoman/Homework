@@ -1,0 +1,33 @@
+.main {
+    margin: 50px;
+    box-sizing: border-box;
+}
+
+.first {
+    width: 100px;
+    height: 50px;
+    background-color: forestgreen;
+    border-radius: 16px;
+}
+
+.second {
+    width: 100px;
+    height: 50px;
+    background-color: darkmagenta;
+    border-radius: 50%;
+}
+
+.third {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border-radius: 50%;
+}
+
+.fourth {
+    width: 100px;
+    height: 50px;
+    margin: 50px;
+    border: 50px solid transparent;
+    border-top-color: brown;
+}
