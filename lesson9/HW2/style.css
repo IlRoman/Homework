@@ -4,15 +4,18 @@
 
 li {
     list-style-type: none;
-    color: white;
 }
-
+   
 .header {
     background-color: darkturquoise;
     height: 40px;
     width: 100%;
     position: fixed;
     z-index: 1;
+}
+
+.nvigation {
+    height: 100%;
 }
 
 .nav-list {
@@ -22,8 +25,9 @@ li {
 
 .nav-item {
     height: 100%;
+    color: white;
     margin-left: 16px;
-    padding-top: 10px;
+    padding-top: 11px;
     display: inline-block;
 }
 
@@ -31,7 +35,6 @@ li {
     background-color: beige;
     height: 5000px;
 }
-
 
 .head {
     width: 200px;
