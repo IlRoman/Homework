@@ -2,22 +2,20 @@ body {
     background-color: antiquewhite;
 }
 
-.first {
-    box-sizing: content-box;
-    border: solid black 8px;
+.rectangle {
     margin: 16px;
     padding: 16px;
     width: 512px;
     height: 128px;
+    border: solid black 8px;
+}
+
+.first {
+    box-sizing: content-box;
     background-color: aquamarine;
 }
 
 .second {
     box-sizing: border-box;
-    margin: 16px;
-    padding: 16px;
-    width: 512px;
-    height: 128px;
-    border: solid black 8px;
     background-color: azure;
 }
