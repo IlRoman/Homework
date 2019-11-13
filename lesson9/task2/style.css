@@ -1,0 +1,24 @@
+/* Разместите два элемента с классом .container по горизонтали и дайте каждому по 50% ширины экрана. Не забывайте про свойство box-sizing, которое влияет на рассчет ширины элемента. */
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 50%;
+    float: left;
+}
+
+.red {
+    background-color: red;
+    float:right;
+}
+
+.green {
+    background-color: green;
+    float: left;
+}
+
+.footer {
+    
+}
