@@ -3,15 +3,16 @@
 }
 
 li {
-    list-style-type: none;
+     color: white;\
+     list-style-type: none;
 }
    
 .header {
-    background-color: darkturquoise;
+    z-index: 1;
+    position: fixed;
     height: 40px;
     width: 100%;
-    position: fixed;
-    z-index: 1;
+    background-color: darkturquoise;
 }
 
 .nvigation {
@@ -24,11 +25,10 @@ li {
 }
 
 .nav-item {
-    height: 100%;
-    color: white;
-    margin-left: 16px;
-    padding-top: 11px;
     display: inline-block;
+    height: 100%;
+    padding-top: 11px;
+    margin-left: 16px;
 }
 
 .content {
@@ -37,50 +37,45 @@ li {
 }
 
 .head {
+    background-color: aquamarine;
     width: 200px;
     height: 200px;
-    background-color: aquamarine;
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
-    margin: -100px;
-    padding: -100px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
-.ear{
+.ear {
     width: 40px;
     height: 60px;
     background-color: brown;
-}
-
-.eye {
-    width: 30px;
-    height: 30px;
-    background-color: grey;
-    border-radius: 50%;
-    
-}
-
-.ear_right {
-    position: relative;
-    left: 200px;
+    position: absolute;
     top: -60px;
 }
 
+.ear_right {
+    right: -40px;
+}
+
 .ear_left {
-    position: relative;
-    top: -120px;
     left: -40px;
 }
 
-.eye_left {
+.eye {
+    background-color: grey;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
     position: absolute;
     top: 80px;
-    left: 40px;
 }
 
 .eye_right {
-    position: absolute;
-    top: 80px;
+    left: 40px;
+}
+
+.eye_left {
     right: 40px;
 }
