@@ -2,21 +2,17 @@
     box-sizing: border-box;
 }
 
-li {
+.list {
     list-style-type: none;
-    font-size: 150%;
-}
-
-.third {
-    text-decoration: green underline;
-}
-
-.second {
-    text-decoration: line-through;
+    font-size: 1.5em;
 }
 
 .first {
     text-decoration: red overline;
+}
+
+.second {
+    text-decoration: line-through;
 }
 
 .third {
