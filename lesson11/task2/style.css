@@ -14,13 +14,15 @@
 }
 
 .cropped {
-    overflow: hidden;
+    cursor: all-scroll;
 }
 
 .both-scrolls {
     overflow: scroll scroll;
+    cursor: all-scroll;
 }
 
 .vertical-scroll {
     overflow-y: scroll;
+    cursor: all-scroll;
 }
