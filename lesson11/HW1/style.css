@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    margin: 16px;
+    border-bottom: 1px dotted black;
+    display: inline-block;
+    position: relative;
+}
+
+.item {
+    z-index: 1;
+    display: none;
+    background-color: grey;
+    border-radius: 4px;
+    padding: 8px;
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+}
+
+.main:hover .item {
+    display: block;
+}
