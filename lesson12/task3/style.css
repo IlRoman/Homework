@@ -18,3 +18,7 @@ li {
 .first {
     text-decoration: red overline;
 }
+
+.third {
+    text-decoration: green underline;
+}
