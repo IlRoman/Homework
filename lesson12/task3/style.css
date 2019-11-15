@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+    font-size: 150%;
+}
+
+.third{
+    text-decoration: green underline;
+}
+
+.second {
+    text-decoration: line-through;
+}
+
+.first {
+    text-decoration: red overline;
+}
