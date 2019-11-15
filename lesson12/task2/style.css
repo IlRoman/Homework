@@ -1,0 +1,26 @@
+* {
+    font-family: "Verdana";
+}
+
+.header {
+    width: 20%;
+    font-size: 74px;
+}
+
+h1 {
+    text-align: center;
+    width: 50%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 16px auto;
+}
+
+div {
+    background-color: coral;
+    height: 200px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 200px;
+}
