@@ -3,10 +3,13 @@
 }
 
 .form {
-    margin: 16px;
+    margin: 32px;
 }
 
 .input {
     margin: 8px;
 }
 
+.languages input{
+    margin-right: 5px;
+}
