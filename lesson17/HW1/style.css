@@ -4,7 +4,7 @@
 
 td {
     width: 50px;
-    height: 50px;
+    height: 55px;
 }
 
 table {
@@ -25,3 +25,4 @@ table {
 table, td, th {
     border-collapse: collapse;
 }
+
