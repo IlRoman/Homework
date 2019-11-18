@@ -20,7 +20,7 @@
     width: 10px;
     height: 4px;
     border-radius: 2px;
-    animation: move 2s alternate infinite, blinking;
+    animation: move 2s alternate infinite;
 }
 
 @keyframes move {
