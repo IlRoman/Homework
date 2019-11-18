@@ -6,8 +6,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    width: 100vw;
     height: 100vh;
 }
 
@@ -26,7 +24,7 @@
     width: 10px;
     height: 4px;
     border-radius: 2px;
-    animation: move 4s;
+    animation: move 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     transition-timing-function: linear;
@@ -40,4 +38,3 @@
         left: 78px;
     }
 }
-
