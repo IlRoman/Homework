@@ -26,6 +26,10 @@
     transition-timing-function: linear;
 }
 
+.{
+    transition-timing-function: ease;
+}
+
 .ease-in {
     transition-timing-function: ease-in;
 }
