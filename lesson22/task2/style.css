@@ -1,40 +1,33 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    width: 100vw;
-}
-
 span {
     text-transform: lowercase;
     font-family: Verdana;
     padding: 8px;
     background-color: #faebd7;
     border-radius: 4px;
-    margin: 0 auto;
-    display: inline-block;
+    margin: auto;
 }
-
-div {
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-}
-
-.navigation {
-    background-color: #ff7f50;
     
+.navigation {
+    display: flex;
+    flex-grow: 1;
+    background-color: #ff7f50;
+    height: 200px;
+
 }
 
-.product-list {
+.products-list {
+    display: flex;
+    flex-grow: 1;
     background-color: #006400;
+    height: 200px;
 }
 
 .news {
+    display: flex;
+    flex-grow: 2;
     background-color: #0ff;
+    height: 200px;
+
 }
 
 @media screen and (min-width: 600px) {
@@ -48,8 +41,4 @@ div {
     .content {
         display: flex;
     }
-}
-
-.products{
-    overflow: hidden;
 }
