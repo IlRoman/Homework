@@ -1,8 +1,8 @@
-.main {
+main {
     display: flex;
 }
 
-.picture {
+picture {
     max-width: 100%;
     margin: auto;
 }
