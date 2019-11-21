@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+html {
+    font-family: Verdana;
+    font-size: 16px;
+    color: #555;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    background-image: linear-gradient(60deg, red, orange);
+}
+
+.main {
+    display: flex;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    background-color: #e5e5e5;
+    padding: 0.5em;
+    margin-top: auto;
+}
+
+.navigation {
+    padding: 0.5em;
+    width: 20%;
+}
+
+.section {
+    padding: 0.5em;
+    width: 60%;
+    font-size: 1.25em;
+}
+
+.news {
+    padding: 0.5em;
+    width: 20%;
+}
+
+.units-list li {
+    line-height: 1.75em;
+}
+
+.css-units {
+    color: #8b0000;
+    background-color: #e5e5e5;
+    font-size: 1.125em;
+    font-weight: 700;
+}
+
+.section__header {
+    font-size: 5vw;
+    text-align: center;
+}
+
+.nav-list{
+    padding: 0;
+}
+
+.nav-list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    width: 100%;
+    background-color: #808080;
+    color: white;
+    line-height: 2em;
+    margin-bottom: 0.5em;
+    list-style-type: none;
+}
+
+.nav-list-link {
+    white-space: nowrap;
+    display: inline-block;
+    width: 100%;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-decoration: none;
+    color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.main_image {
+    max-width: 100%;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        flex-direction: column;
+    }
+    .navigation {
+        flex-grow: 1;
+        width: 100%;
+    }
+    .section {
+        flex-grow: 1;
+        width: 100%;
+    }
+    .news {
+        flex-grow: 1;
+        width: 100%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    .main {
+        flex-wrap: wrap;
+    }
+    .navigation {
+        width: 20%;
+    }
+    .section {
+        width: 80%;
+    }
+    .news {
+        flex-grow: 1;
+    }
+}
+
+/*
+
+При ширине экрана до 600px все секции должны располагаться одна под другой в колонку и занимать всю ширину каждая
+При ширине экрана 600px и до 900px - навигация и основная секция должны быть в одной строке. При чем навигация должна занимать 20% ширины,
+ а все остальное - основная секция. Новости должны располагаться под первыми двумя и растягиваться на всю ширину
+При ширине экрана 900px и больше - три секции должны располагаться в одну линию. Навигация должна занимать 20% ширины экрана,
+основная секция - 60%, новости - 20%
+
+ */
