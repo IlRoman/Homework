@@ -4,23 +4,23 @@
 
 body {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   height: 100vh;
 }
 
 .square {
   width: 100px;
   height: 100px;
-  margin: 16px;
+  margin: 16px 8px;
   background-color: #ff7f50;
 }
-@media screen and (max-width: 899px) {
+@media (min-width: 600px) and (max-width: 899px) {
   .square {
     background-color: #8a2be2;
   }
 }
-@media screen and (max-width: 1199px) {
+@media (min-width: 900px) and (max-width: 1199px) {
   .square {
     background-color: #a61;
   }
